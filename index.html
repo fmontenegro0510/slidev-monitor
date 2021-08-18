@@ -13,18 +13,16 @@
 <body>
     <div class="reveal">
         <div class="slides">
-          <section>
-            <h5>Dra. Gloria Zalazar anticipa como será la instancia de entrevistas en el concurso para el STJ</h5 >
-            <video id="video" muted data-autoplay src="media/video01.mp4" >
-              <!-- <video id="video" data-autoplay src="https://www.youtube.com/embed/2RC-C7j7Svs" > -->
-            </video>  
-          </section>
-          <section>
-            <h1>CMyJE</h1>
-            <h2>CMyJE</h2>
-            <h3>CMyJE</h3>
+         
+          <section  data-autoslide="3000">
 
+            <h5>Consejo de la Magistratura y <br> Jurado de Enjuiciamientos</h5>
+            <h5>Provincia del Chaco</h5>
           </section>
+          <!-- <section  data-transition="concave">
+            <h5>Dra. Gloria Zalazar anticipa como será la instancia de entrevistas en el concurso para el STJ</h5 >
+              <video id="video" data-autoplay src="media/video01.mp4"></video>  
+          </section> -->
         </div>
       </div>
       <script src="dist/js/reveal.js"></script>
@@ -33,10 +31,21 @@
           /* auto reproduccion del video*/    
           autoPlayMedia: true,
           /* numero de slide*/
-          slideNumber: 'c/t' 
+          slideNumber: 'c/t',
+          /*AutoSlide*/
+          autoSlide: 5000,
+          loop: true,
+          autoSlideMethod: Reveal.navigateRight,
+          /*transition por defecto para todos los slides*/
+          backgroundTransition: 'slide'
         });
 
-
+        /*Options
+        
+          Data Transition: [none, fade, zoom, slide, covex, concave]
+        
+        
+        */
       </script>
 </body>
 </html>
