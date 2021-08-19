@@ -9,43 +9,44 @@
     <link rel="stylesheet" href="dist/css/reveal.css">
     <link rel="stylesheet" href="dist/theme/sky.css">
     <link rel="stylesheet" href="dist/css/screen.css">
+
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
          
           <section  data-autoslide="3000">
-
-            <h5>Consejo de la Magistratura y <br> Jurado de Enjuiciamientos</h5>
+            <img id="escudo" src="dist/img/escudo_provincia_del_chaco.png" alt="Escudo de la Provincia del Chaco">
+            <h3>Consejo de la Magistratura y <br> Jurado de Enjuiciamientos</h3>
             <h5>Provincia del Chaco</h5>
           </section>
-          <!-- <section  data-transition="concave">
+          <!-- <section data-markdown="md/anuncio01.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+          data-separator-notes="^Note:"
+          data-charset="iso-8859-15" >
+          </section> -->
+
+          <!-- .slide: data-background="#FFFFFF" -->
+          <section data-markdown data-autoslide="5000">
+            <script type="text/template">
+              <pre><h4>CON FECHAS DE EXAMEN</h4></pre>
+              <h5 id="titulo">JUEZ  para el JUZGADO CIVIL y COMERCIAL Nº 1 de la ciudad de PCIA. ROQUE SÁENZ PEÑA </h5>
+              <ol>
+                <li>Examen escrito: 21/11/19 a las 8 horas.</li>
+                <li>Examen oral: 25/11/19 a las 8 horas.</li>
+              </ol>
+            </script>
+          </section>
+          <section  data-transition="concave" data-autoslide="93000">
             <h5>Dra. Gloria Zalazar anticipa como será la instancia de entrevistas en el concurso para el STJ</h5 >
               <video id="video" data-autoplay src="media/video01.mp4"></video>  
-          </section> -->
+          </section>
         </div>
       </div>
-      <script src="dist/js/reveal.js"></script>
-      <script>
-        Reveal.initialize({
-          /* auto reproduccion del video*/    
-          autoPlayMedia: true,
-          /* numero de slide*/
-          slideNumber: 'c/t',
-          /*AutoSlide*/
-          autoSlide: 5000,
-          loop: true,
-          autoSlideMethod: Reveal.navigateRight,
-          /*transition por defecto para todos los slides*/
-          backgroundTransition: 'slide'
-        });
-
-        /*Options
-        
-          Data Transition: [none, fade, zoom, slide, covex, concave]
-        
-        
-        */
-      </script>
+    <script src="dist/js/reveal.js"></script>
+    <script src="dist/plugin/highlight/highlight.js"></script>
+    <script src="dist/plugin/markdown/markdown.js"></script>
+    <script src="dist/js/reveal-init.js"></script>
 </body>
 </html>
